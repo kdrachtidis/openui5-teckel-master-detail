@@ -11,18 +11,7 @@ body {
   padding: 0px !important;
 }
 
-.headerText {
-  width: 100% !important;
-  text-align: left !important;
-  position: absolute;
-  top: 40px;
-  left: 60px;
-  font-size: 3.7vw !important;
-  font-family: Helvetica !important;
-  font-weight: 100;
-  color: #ffffff !important;
-  text-shadow: 1px 1px 5px #424242;
-}
+
 
 /******************************************************************/
 /*                      TOOL HEADER ALIGNMENT                     */

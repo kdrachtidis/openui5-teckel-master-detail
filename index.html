@@ -1,4 +1,4 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,17 +7,11 @@
 
     <link rel="icon" href="images/favicon.ico">
     <title>Demo API hub</title>
-    <script
-        id="sap-ui-bootstrap"
-        src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-        data-sap-ui-theme="sap_belize"
-        data-sap-ui-libs="sap.tnt, sap.m, sap.ui.layout, sap.ui.core"
-        data-sap-ui-bindingSyntax="complex"
-        data-sap-ui-xx-bindingSyntax="complex"
-        data-sap-ui-compatVersion="edge"
-        data-sap-ui-resourceroots='{"UI5FioriForTools": "./"}'
-        data-sap-ui-preload="async">
-    </script>
+    <script id="sap-ui-bootstrap" src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_fiori_3" data-sap-ui-libs="sap.tnt, sap.m, sap.ui.layout, sap.ui.core"
+        data-sap-ui-bindingSyntax="complex" data-sap-ui-xx-bindingSyntax="complex" data-sap-ui-compatVersion="edge"
+        data-sap-ui-resourceroots='{"UI5FioriForTools": "./"}' data-sap-ui-preload="async">
+        </script>
     <script>
         sap.ui.getCore().attachInit(function () {
             sap.ui.require([
@@ -31,8 +25,30 @@
     </script>
     <script type="text/javascript" src="api.min.js" async onload="Init('')">
     </script>
-    <!-- CUSTOM STYLES, YEAH! -->
-    <link rel="stylesheet" href="custom.css" type="text/css" />
+
+    <style>
+        #__xmlview0--cell0 .sapUiBlockCellContent {
+            margin-top: 0px;
+            padding: 0px !important;
+        }
+
+        .headerText {
+            width: 100% !important;
+            text-align: left !important;
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            font-size: 3.7vw !important;
+            font-family: Helvetica !important;
+            font-weight: 100;
+            color: #ffffff !important;
+            text-shadow: 1px 1px 5px #424242;
+        }
+
+        .cursorcontrol {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body class="sapUiBody" id="content">
