@@ -38,16 +38,18 @@
                 <m:VBox class="sapUiSmallMargin">
                   <f:SimpleForm columnsL="1" columnsM="1" editable="false" emptySpanL="4" emptySpanM="4" labelSpanL="3" labelSpanM="3" layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="1024">
                     <f:content>
-                      <m:Label text="Supplier"/>
-                      <m:Text text="SAP SE"/>
-                      <m:Label text="Street/No."/>
-                      <m:Text text="Dietmar-Hopp Allee 16"/>
-                      <m:Label text="ZIP Code/City"/>
-                      <m:Text text="69190 Walldorf"/>
-                      <m:Label text="Country"/>
-                      <m:Text text="Germany"/>
-                      <m:Label text="Website"/>
-                      <m:Link text="http://www.sap.de"/>
+                      <m:Label text="Version:"/>
+                      <m:Text text="14.02.0-ce"/>
+                      <m:Label text="API version:"/>
+                      <m:Text text="1.37"/>
+                      <m:Label text="Go version:"/>
+                      <m:Text text="go1.3.3"/>
+                      <m:Label text="Git commit:"/>
+                      <m:Text text="2365c82"/>
+                      <m:Label text="Built:"/>
+                      <m:Text text="Wed Apr 12 06:06:36 2017"/>
+                      <m:Label text="OS/Arch:"/>
+                      <m:Text text="darwin/amd64"/>
                     </f:content>
                   </f:SimpleForm>
                 </m:VBox>
