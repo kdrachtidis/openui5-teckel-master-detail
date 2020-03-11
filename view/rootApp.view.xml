@@ -14,7 +14,7 @@
           icon="sap-icon://menu2" 
           type="Transparent" 
           press="onSideNavButtonPress"></Button>
-        <Text text="My API Hub" 
+        <Text text="API Hub" 
           wrapping="false"></Text>
         <ToolbarSpacer />
         <Button icon="sap-icon://search" 

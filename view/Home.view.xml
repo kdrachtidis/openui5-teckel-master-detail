@@ -14,6 +14,7 @@
   <Page showHeader="false">
     <l:BlockLayout background="Light" 
       id="BlockLayout">
+
       <!-- THIS IS THE HEADER ROW WITH THE IMAGE -->
       <l:BlockLayoutRow>
         <l:BlockLayoutCell class="noPadding" 
@@ -23,18 +24,20 @@
           <Image src="images/header.jpg" 
             width="100%"></Image>
           <Text class="headerText" 
-            text="Welcome to the demo API hub" 
+            text="Welcome to the API hub" 
             width="100%" />
         </l:BlockLayoutCell>
       </l:BlockLayoutRow>
+      
       <!-- THIS IS THE TITLE -->
       <l:BlockLayoutRow>
         <l:BlockLayoutCell title="Featured"></l:BlockLayoutCell>
       </l:BlockLayoutRow>
+
       <!-- THIS IS THE BLOCK LAYOUT ROW -->
       <l:BlockLayoutRow>
         <!-- FIRST BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell4" 
           title="Cloud Platform" 
           titleAlignment="Center" 
@@ -51,7 +54,7 @@
         </l:BlockLayoutCell>
         <!-- SECOND BLOCK -->
         <!-- For several clickable Areas, use the respective UI5 controls -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell1" 
           title="API Management" 
           titleAlignment="Center">
@@ -65,7 +68,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- THIRD BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell5" 
           title="Goals Management" 
           titleAlignment="Center">
@@ -79,7 +82,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- FOURTH BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell9" 
           title="Talent Management" 
           titleAlignment="Center">
@@ -100,7 +103,7 @@
       <!-- THIS IS THE BLOCK LAYOUT ROW -->
       <l:BlockLayoutRow>
         <!-- FIRST BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell10" 
           title="Time Recording API" 
           titleAlignment="Center" 
@@ -115,7 +118,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- SECOND BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell2" 
           title="Cloud for Customer" 
           titleAlignment="Center" 
@@ -130,7 +133,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- THIRD BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell3" 
           title="Cloud for Finance" 
           titleAlignment="Center" 
@@ -144,7 +147,7 @@
           <Text text="Published 3 months ago" 
             textAlign="Left" />
         </l:BlockLayoutCell>
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell6" 
           title="Marketing Cloud" 
           titleAlignment="Center" 
@@ -159,14 +162,16 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
       </l:BlockLayoutRow>
+
       <!-- THIS IS THE TITLE -->
       <l:BlockLayoutRow>
         <l:BlockLayoutCell title=" Updated"></l:BlockLayoutCell>
       </l:BlockLayoutRow>
+
       <!-- THIS IS THE BLOCK LAYOUT ROW -->
       <l:BlockLayoutRow>
         <!-- FIRST BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell7" 
           title="OData API" 
           titleAlignment="Center">
@@ -180,7 +185,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- SECOND BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell12" 
           title="Vehicles Network" 
           titleAlignment="Center">
@@ -194,7 +199,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- THIRD BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell11" 
           title="Translation Hub" 
           titleAlignment="Center">
@@ -208,7 +213,7 @@
             textAlign="Left" />
         </l:BlockLayoutCell>
         <!-- FOURTH BLOCK -->
-        <l:BlockLayoutCell class="cursorcontrol " 
+        <l:BlockLayoutCell class="cursorcontrol" 
           id="cell8" 
           title="Product Content" 
           titleAlignment="Center">
